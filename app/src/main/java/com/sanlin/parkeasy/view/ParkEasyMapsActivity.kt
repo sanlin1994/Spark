@@ -84,7 +84,7 @@ class ParkEasyMapsActivity : AppCompatActivity(), OnMapReadyCallback,
 
     private fun autoCompleteSearchBar(){
         if (!Places.isInitialized()) {
-            Places.initialize(getApplicationContext(), "AIzaSyCaQLKLdcHD8s09a6yw-gPHtEJeGYeL2HU")
+            Places.initialize(getApplicationContext(), "your google api key")
         }
         val autocompleteFragment =
             supportFragmentManager.findFragmentById(R.id.autocomplete_fragment)
